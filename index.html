@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -42,7 +42,7 @@
         }
 
         .card:hover {
-            transform: scale(1.10);
+            transform: scale(1.02);
         }
     </style>
     <span id="home"></span>
@@ -67,112 +67,184 @@
                         <a class="nav-link" href="#oferta">Oferta</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sekcja 2</a>
+                        <a class="nav-link" href="#FAQ">Faq</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sekcja 3</a>
+                        <a class="nav-link" href="#autor">Autor</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+    <section id="carousel">
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active c-item">
-                <img src="https://images.unsplash.com/photo-1579033461380-adb47c3eb938?fit=crop&w=1964&q=100"
-                    class="d-block w-100 c-img" alt="Slide 1">
-                <div class="carousel-caption top-0 mt-4">
-                    <p class="mt-5 fs-3 text-uppercase">Odkryj ukryty świat</p>
-                    <h1 class="display-1 fw-bolder text-capitalize">Wycieczki po Aurorze</h1>
-                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Zarezerwuj wycieczkę</button>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <img src="https://images.unsplash.com/photo-1579033461380-adb47c3eb938?fit=crop&w=1964&q=100"
+                        class="d-block w-100 c-img" alt="Slide 1">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="mt-5 fs-3 text-uppercase">Odkryj ukryty świat</p>
+                        <h1 class="display-1 fw-bolder text-capitalize">Wycieczki po Aurorze</h1>
+
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item c-item">
-                <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100"
-                    class="d-block w-100 c-img" alt="Slide 2">
-                <div class="carousel-caption top-0 mt-4">
-                    <p class="text-uppercase fs-3 mt-5">Sezon właśnie nadszedł</p>
-                    <p class="display-1 fw-bolder text-capitalize">Dostępne 3 wycieczki</p>
-                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-                        data-bs-target="#booking-modal">Zarezerwuj wycieczkę</button>
+                <div class="carousel-item c-item">
+                    <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100"
+                        class="d-block w-100 c-img" alt="Slide 2">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="text-uppercase fs-3 mt-5">Sezon właśnie nadszedł</p>
+                        <p class="display-1 fw-bolder text-capitalize">Dostępne 3 wycieczki</p>
+
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item c-item">
-                <img src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100"
-                    class="d-block w-100 c-img" alt="Slide 3">
-                <div class="carousel-caption top-0 mt-4">
-                    <p class="text-uppercase fs-3 mt-5">Destination activities</p>
-                    <p class="display-1 fw-bolder text-capitalize">Wybierz się na wędrówkę po lodowcu</p>
-                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-                        data-bs-target="#booking-modal">Zarezerwuj wycieczkę</button>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <h1 id="oferta" class="text-center my-5"> Oferta</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg">
-                <div class="card">
-                    <img src="https://przegladislandzki.pl/images/uimg01/zorza-polarna-islandia-3.jpg"
-                        class="card-img-top cards-img" alt="card 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Rejkiawik, Islandia - 3000zł</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Więcej szczegółów</a>
+                <div class="carousel-item c-item">
+                    <img src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100"
+                        class="d-block w-100 c-img" alt="Slide 3">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="text-uppercase fs-3 mt-5">Destination activities</p>
+                        <p class="display-1 fw-bolder text-capitalize">Wybierz się na wędrówkę po lodowcu</p>
+
                     </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
-            <div class="col-lg">
-                <div class="card">
-                    <img src="https://en.ilmatieteenlaitos.fi/hli0qi7fbbos/27e1q3sjf3p71jRQCRsV3E/b58ea225546bd7b70e0ec7b83dbee690/revontulet_PetriJauhiainen750px.jpg?fm=webp"
-                        class="card-img-top cards-img" alt="card 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Laponia, Finlandia - 2500zł</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Więcej szczegółów</a>
+    <section id="oferta">
+        <h1 class="text-center my-5"> Oferta</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="https://przegladislandzki.pl/images/uimg01/zorza-polarna-islandia-3.jpg"
+                            class="card-img-top cards-img" alt="card 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Rejkiawik, Islandia - 3000zł</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                            <a href="https://pl.wikipedia.org/wiki/Reykjav%C3%ADk" target="_blank"
+                                class="btn btn-primary">Więcej szczegółów</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg">
-                <div class="card">
-                    <img src="https://s18.flog.pl/media/foto/10954336_norwegia--tromso-zima.jpg"
-                        class="card-img-top cards-img" alt="card 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Tromso, Norwegia - 3500zł</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Więcej szczegółów</a>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="https://en.ilmatieteenlaitos.fi/hli0qi7fbbos/27e1q3sjf3p71jRQCRsV3E/b58ea225546bd7b70e0ec7b83dbee690/revontulet_PetriJauhiainen750px.jpg?fm=webp"
+                            class="card-img-top cards-img" alt="card 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Laponia, Finlandia - 2500zł</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                            <a href="https://pl.wikipedia.org/wiki/Laponia" target="_blank"
+                                class="btn btn-primary">Więcej
+                                szczegółów</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="https://s18.flog.pl/media/foto/10954336_norwegia--tromso-zima.jpg"
+                            class="card-img-top cards-img" alt="card 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Tromso, Norwegia - 3500zł</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                            <a href="https://pl.wikipedia.org/wiki/Troms%C3%B8" target="_blank"
+                                class="btn btn-primary">Więcej szczegółów</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section id="FAQ">
+        <div class="container w-75">
+            <h1 class="text-center my-5">Najczęściej zadawane pytania</h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Co zapewanimy?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>W cenie wycieczki zapewnimay:</p>
+                            <ul>
+                                <li>Lot samolotem w dwie strony</li>
+                                <li>Zakwaterowanie </li>
+                                <li>Odbiór z lotniska i transport do hotelu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Długość lotu
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>W zależności od regionu długość lotu waha sie od 5h - 6h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header text-center">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Jakie są rodzaje płatności?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Gotówką</li>
+                                <li>Kartą płatniczą</li>
+                                <li>Kartą kredytową</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="autor" class="bg-dark py-5 mt-5 ">
+        <div class="container text-light text-center">
+            <p class="display-5 mb-3">Jakub Kołodziejczyk</p>
+        </div>
+    </footer>
 </body>
 
 </html>
